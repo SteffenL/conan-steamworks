@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.12)
+project(SoftActivateLicensingSDK CXX)
+set(TARGET_NAME Licensing)
+add_library(${TARGET_NAME} INTERFACE)
+target_include_directories(${TARGET_NAME} INTERFACE include)
