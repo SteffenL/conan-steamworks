@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.12)
+project(Steamworks CXX)
+set(TARGET_NAME Steamworks)
+add_library(${TARGET_NAME} INTERFACE)
+target_include_directories(${TARGET_NAME} INTERFACE include)
