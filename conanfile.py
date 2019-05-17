@@ -12,6 +12,7 @@ class SoftactivateConan(ConanFile):
         "arch": ["x86", "x86_64"],
         "build_type": ["Debug", "Release"]
     }
+    license = "Apache-2.0"
 
     _checksums = {
         "2.3.1": "bc79760bfd7fcd145d5a248c2c33d2ad798581616cc4beafa4178219657012b2"
