@@ -10,6 +10,7 @@ class SteamworksConan(ConanFile):
         "os": ["Windows", "Linux", "Macos"],
         "arch": ["x86", "x86_64"]
     }
+    license = "Apache-2.0"
 
     def configure(self):
         if self.settings.os == "Macos" and self.settings.arch != "x86":
